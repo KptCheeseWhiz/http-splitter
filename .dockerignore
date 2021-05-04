@@ -1,0 +1,12 @@
+/dist
+/out
+/node_modules
+
+/scripts
+
+/.git
+/.gitignore
+
+/.dockerignore
+/docker-compose*
+/Dockerfile
