@@ -33,7 +33,7 @@ export class AppService {
           .then((resp) => resp.status)
           .catch((e) => {
             console.log("fetch failed to", proxy.target, e);
-            return -1;
+            return 500;
           });
       }),
     );
